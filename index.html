@@ -57,3 +57,4 @@
 
             // Remove the shooting star after it passes through the viewport
             star.addEventListener("animationiteration", () => {
+                shootingStarsContainer.removeChild(star);
